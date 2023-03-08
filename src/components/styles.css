@@ -1,0 +1,41 @@
+.gameTitle {
+  font-size: 80px;
+  color: #fff;
+  font-family: fantasy;
+}
+
+/* Layout */
+.board-container {
+  height: 400px;
+  width: 400px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.square {
+  height: 150px;
+  width: 150px;
+  display: grid;
+  place-items: center;
+  font-size: 100px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  border: 3px solid #fff;
+}
+
+.player-turn {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: right;
+  width: 100%;
+  padding-right: 30px;
+}
+
+.restart {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
